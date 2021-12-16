@@ -1,11 +1,92 @@
-import './App.css';
 import Cell from '../src/components/Cell'
+import Table from '../src/components/Table'
 
 function App() {
     return (
-        <div className="App">
-            <Cell />
-        </div>
+        <Table>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+            <Cell/>
+
+        </Table>
     );
 }
 
