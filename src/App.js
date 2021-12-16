@@ -1,11 +1,10 @@
 import './App.css';
+import Cell from '../src/components/Cell'
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                hello
-            </header>
+            <Cell />
         </div>
     );
 }
