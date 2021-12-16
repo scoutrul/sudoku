@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import Cell from './Cell'
 
-const Table = styled.div`
+const TableCSS = styled.div`
   width: fit-content;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -36,12 +37,36 @@ const Sector8 = styled.div` {
 const Sector9 = styled.div` {
   grid-area: 7 / 7 / 10 / 10;
 }`
-
-const Component = ({children}) => {
-    return <Table>{children.map((child, index) => {
-            return <Sector1><child number={index}/></Sector1>
-
-    })}</Table>
+const Component = () => {
+    return <TableCSS>
+        {Array(9).fill(0).map((index) => {
+            return <Sector1><Cell number={index}/></Sector1>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector2><Cell number={index}/></Sector2>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector3><Cell number={index}/></Sector3>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector4><Cell number={index}/></Sector4>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector5><Cell number={index}/></Sector5>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector6><Cell number={index}/></Sector6>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector7><Cell number={index}/></Sector7>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector8><Cell number={index}/></Sector8>
+        })}
+        {Array(9).fill(0).map((index) => {
+            return <Sector9><Cell number={index}/></Sector9>
+        })}
+    </TableCSS>
 }
 
 export default Component

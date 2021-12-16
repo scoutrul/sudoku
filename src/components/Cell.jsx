@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Cell = styled.div`
+const CellCSS = styled.div`
   display: flex;
   background-color: #e9e9e9;
   width: 40px;
@@ -11,7 +11,7 @@ const Cell = styled.div`
   align-content: center;
 `;
 
-const Number = styled.span`
+const NumberCSS = styled.span`
   font-size: 32px;
   line-height: 30px;
   font-weight: 800;
@@ -19,9 +19,9 @@ const Number = styled.span`
 `;
 
 const Component = ({number}) => {
-    return <Cell>
-        <Number>{number}</Number>
-    </Cell>
+    return <CellCSS>
+        <NumberCSS>{number}</NumberCSS>
+    </CellCSS>
 }
 
 export default Component
