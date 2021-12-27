@@ -1,9 +1,9 @@
-import Table from '../src/components/Table'
+import CrossTable from '../src/components/CrossTable'
 
 function App() {
     return (
-        <Table>
-        </Table>
+        <CrossTable>
+        </CrossTable>
     );
 }
 

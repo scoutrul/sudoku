@@ -39,33 +39,10 @@ const Sector9 = styled.div` {
 }`
 const Component = () => {
     return <TableCSS>
-        {Array(9).fill(0).map((index) => {
-            return <Sector1><Cell number={index}/></Sector1>
+        {Array(10).fill(0).map((item, index) => {
+            return <Sector1 key={index}><Cell number={index}/></Sector1>
         })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector2><Cell number={index}/></Sector2>
-        })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector3><Cell number={index}/></Sector3>
-        })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector4><Cell number={index}/></Sector4>
-        })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector5><Cell number={index}/></Sector5>
-        })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector6><Cell number={index}/></Sector6>
-        })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector7><Cell number={index}/></Sector7>
-        })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector8><Cell number={index}/></Sector8>
-        })}
-        {Array(9).fill(0).map((index) => {
-            return <Sector9><Cell number={index}/></Sector9>
-        })}
+
     </TableCSS>
 }
 
